@@ -58,7 +58,9 @@ body {
     font-size: 16px;
     line-height: 26px;
     color: var(--light-blue);
+    box-sizing: border-box;
 }
+
 
 /*
  * BUTTONS
@@ -147,4 +149,51 @@ nav {
     left: 24px;
     margin-top: 2em;
 }
+
+.rounded-corners-image {
+    border-radius: 25px;
+}
+
+/* PRODUCT ABOUT SECTION */
+
+.product-about-images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.phone-keyboard {
+    display: inline-block;
+    position: relative;
+    background: url('./assets/mobile/image-phone-and-keyboard.jpg'), linear-gradient(rgba(241,103,24, 0.75), rgba(241,103,24, 0.75));
+    background-blend-mode: multiply;
+    background-size: cover;
+    width: 129px;
+    height: 193px;
+    left: -22px;
+}
+
+.glass-keyboard {
+    display: inline-block;
+    position: relative;
+    background: url('./assets/mobile/image-glass-and-keyboard.jpg');
+    background-size: cover;
+    width: 220px;
+    height: 193px;
+}
+
+.product-about-text {
+    padding: 24px;
+    text-align: center;
+}
+
+.product-title {
+    width: 255px;
+    height: 108px;
+    margin: 24px auto;
+}
+
+.product-description {
+    margin: 24px auto;
+}
+
 
