@@ -150,7 +150,7 @@ nav {
 }
 
 .rounded-corners-image {
-    border-radius: 25px;
+    border-radius: 25px 0 0 25px;
 }
 
 /* PRODUCT ABOUT SECTION */
@@ -233,5 +233,47 @@ footer {
 }
 
 .footer-span {
-    font-weigh: bold;
+    font-weight: bold;
+}
+
+/*
+ * TABLET STYLES
+ */
+
+@media only screen and (min-width: 750px) {
+
+button {
+    width: 175px;
+    height: 58px;
+}
+
+header {
+    padding: 39px;
+}
+
+.cta {
+    display: flex;
+}
+
+.cta-info {
+    width: 447px;
+    padding-top: 2em;
+    padding-right: 69px;
+}
+
+.cta-keyboard {
+    background-image: url('./assets/tablet/image-keyboard.jpg');
+    background-position: top left;
+    background-size: cover;
+    height: 425px;
+    width: 478px;
+    margin-right: -39px;
+    left: 0;
+    margin-top: 4em;
+}
+
+.cta-action {
+    width: initial;
+}
+
 }
