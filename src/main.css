@@ -150,6 +150,10 @@ nav {
 }
 
 .rounded-corners-image {
+    border-radius: 25px;
+}
+
+.half-rounded-corners-image {
     border-radius: 25px 0 0 25px;
 }
 
@@ -274,6 +278,53 @@ header {
 
 .cta-action {
     width: initial;
+}
+
+/* PRODUCT ABOUT SECTION */
+
+.product-about {
+    display: grid;
+    grid-template-rows: 320px auto;
+    gap: 48px;
+    justify-content: center;
+    padding: 0 39px;
+}
+
+.product-about-images {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-row: 1;
+}
+
+.product-about-text {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-row: 2;
+    text-align: left;
+    padding: 0;
+}
+
+.product-description {
+    width: 398px;
+    justify-self: end;
+    align-self: center;
+    margin: 0;
+}
+
+.phone-keyboard {
+    background: url('./assets/tablet/image-phone-and-keyboard.jpg'), linear-gradient(rgba(241,103,24, 0.75), rgba(241,103,24, 0.75));
+    background-size: contain;
+    height: 100%;
+    width: 214px;
+    left: 0;
+}
+
+.glass-keyboard {
+    background: url('./assets/tablet/image-glass-and-keyboard.jpg');
+    background-size: contain;
+    height: 100%;
+    width: 445px;
+    justify-self: end;
 }
 
 }
