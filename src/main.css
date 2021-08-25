@@ -280,6 +280,7 @@ header {
     width: 478px;
     margin-right: -39px;
     margin-top: 4em;
+    left: 50px;
 }
 
 .cta-action {
@@ -361,10 +362,11 @@ header {
 @media only screen and (min-width: 1400px) {
     .wrapper {
         margin: 0px 165px;
+        gap: 50px;
     }
 
     header {
-        padding: 55px 0;
+        padding: 55px 0 0 0;
     }
 
     .outer-square {
@@ -375,6 +377,11 @@ header {
         height: 240px;
         top: 196px;
         right: -125px;
+    }
+
+    .outer-square-left {
+        left: -120px;
+        top: 950px
     }
 
     .square-pattern {
@@ -390,6 +397,45 @@ header {
         border-radius: 25px;
     }
 
+    .product-about {
+        max-width: fit-content;
+        grid-template-rows: 480px;
+        grid-template-columns: 2fr 1fr;
+        padding: 0;
+    }
+
+    .product-about-images {
+        grid-gap: 27px;
+    }
+
+    .product-about-text {
+        grid-row: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .product-title {
+        margin: 0;
+    }
+
+    .product-description {
+        width: 255px;
+        align-self: flex-end;
+    }
+
+    .phone-keyboard {
+        width: 255px;
+        background: url('./assets/desktop/image-phone-and-keyboard.jpg'), linear-gradient(rgba(241,103,24, 0.75), rgba(241,103,24, 0.75));
+        background-size: contain;
+    }
+
+    .glass-keyboard {
+        width: 445px;
+        background: url('./assets/desktop/image-glass-and-keyboard.jpg');
+        background-size: contain;
+    }
 }
 
 }
