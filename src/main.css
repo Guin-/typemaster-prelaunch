@@ -436,6 +436,19 @@ header {
         background: url('./assets/desktop/image-glass-and-keyboard.jpg');
         background-size: contain;
     }
+
+
+    .product-features {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 143px;
+        flex-wrap: nowrap;
+    }
+
+    .product-feature {
+        width: 255px;
+        padding-right: 30px;
+    }
 }
 
 }
